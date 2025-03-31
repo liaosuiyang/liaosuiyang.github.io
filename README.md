@@ -1,6 +1,9 @@
 [Google Scholar](https://scholar.google.com/citations?user=W0hjPzUAAAAJ&hl=en)
 
-A Materials Scientist in the space of RNA + LNP.
+
+# Introduction
+
+I am a Materials Scientist in the space of RNA + LNP.
 
 
 # Education

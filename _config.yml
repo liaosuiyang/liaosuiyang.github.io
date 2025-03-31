@@ -1,9 +1,10 @@
-title: Dr. Suiyang Liao
+title: Suiyang Liao, PhD
 
-header:
-  logo: "https://github.com/liaosuiyang/liaosuiyang.github.io/blob/main/CA6AA504-95FD-4683-8BB2-6BEE594D3C36_1_105_c.jpeg"
+# header:
+#   logo: "https://github.com/liaosuiyang/liaosuiyang.github.io/blob/main/CA6AA504-95FD-4683-8BB2-6BEE594D3C36_1_105_c.jpeg"
 
-show_downloads: true
+description: this is created by me on 20250330
+show_downloads: false
 theme: jekyll-theme-minimal
 
 

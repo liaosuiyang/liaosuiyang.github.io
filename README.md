@@ -1,10 +1,6 @@
 [Google Scholar](https://scholar.google.com/citations?user=W0hjPzUAAAAJ&hl=en)
 
 
-# Introduction
-
-I am a Materials Scientist in the space of RNA + LNP.
-
 
 # Education
 **Academic Pages is a Github Pages template for academic websites.**

@@ -1,8 +1,12 @@
-[Google Scholar] (https://scholar.google.com/citations?user=W0hjPzUAAAAJ&hl=en)
+title: Suiyang Liao | 廖穗杨
+logo: /assests/CA6AA504-95FD-4683-8BB2-6BEE594D3C36_1_105_c.jpeg
+
+[Google Scholar](https://scholar.google.com/citations?user=W0hjPzUAAAAJ&hl=en)
+
+
 
 # A Materials Scientist in the space of RNA + LNP.
 
-logo: /assets/CA6AA504-95FD-4683-8BB2-6BEE594D3C36_1_105_c.jpeg
 
 # Education
 **Academic Pages is a Github Pages template for academic websites.**

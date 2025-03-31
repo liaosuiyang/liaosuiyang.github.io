@@ -5,7 +5,12 @@
 
 Tsinghua university
 EPFL
+
 UBC
+
+1. Click the "Use this template" button in the top right.
+1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
+1. Set site-wide configuration and add your conte
 
 
 # Getting Started

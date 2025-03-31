@@ -2,12 +2,14 @@
 
 # A Materials Scientist in the space of RNA + LNP.
 
+logo: /assests/CA6AA504-95FD-4683-8BB2-6BEE594D3C36_1_105_c.jpeg
+
 # Education
 **Academic Pages is a Github Pages template for academic websites.**
 
-- D.Sc, EPFL 2017~2022
-- B.Eng, Tsinghua
-- BBA, Tsinghua
+- D.Sc, EPFL 2022.4
+- Bachelor of Engineering, School of Materials Science and Engineering, Tsinghua, 2016.9
+- Bachelor of Business Administration, School of Economics and Management, Tsinghua, 2016.9
 
 ## Tsinghua university /n
 
@@ -16,7 +18,8 @@
 ## UBC
 I develop mRNA LNP
 
-# work experience
+
+# Work experience
 
 
 

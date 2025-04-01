@@ -9,11 +9,13 @@
 - Bachelor of Engineering, School of Materials Science and Engineering, Tsinghua, 2016.9
 - Bachelor of Business Administration, School of Economics and Management, Tsinghua, 2016.9
 
-## Tsinghua university /n
 
-## EPFL
+### Tsinghua university
 
-## UBC
+
+### EPFL
+
+### UBC
 I develop mRNA LNP
 
 

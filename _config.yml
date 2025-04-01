@@ -1,4 +1,4 @@
-title: Suiyang Liao, PhDxxxx
+title: Suiyang Liao, PhDx
 
 # logo: /assests/CA6AA504-95FD-4683-8BB2-6BEE594D3C36_1_105_c.jpeg
 
@@ -21,11 +21,11 @@ theme: jekyll-theme-minimal
 #   researchgate     : # URL
 
 
-# # Publication Category - The following the list of publication categories and their headings
-# publication_category:
-#   books:
-#     title: 'Books'
-#   manuscripts:
-#     title: 'Journal Articles'    
-#   conferences:
-#     title: 'Conference Papers'
+Publication Category - The following the list of publication categories and their headings
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'

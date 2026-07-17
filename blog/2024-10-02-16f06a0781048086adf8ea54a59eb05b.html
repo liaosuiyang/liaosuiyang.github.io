@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>20241002 Simonsen's questions — Suiyang Liao</title>
+<link rel="icon" type="image/png" href="../assets/img/logo-mark.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="../index.html">
+      <img src="../assets/img/logo-mark.png" alt="Logo">
+      <span>Suiyang Liao</span>
+    </a>
+    <nav>
+      <a href="../index.html#about">About</a>
+      <div class="nav-item">
+        <span class="nav-link">Work</span>
+        <div class="dropdown">
+          <a href="#">item1</a>
+          <a href="#">item2</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <span class="nav-link">Life</span>
+        <div class="dropdown">
+          <a href="../blog.html">Blog</a>
+          <a href="#">item2</a>
+        </div>
+      </div>
+      <a href="../index.html#research">Research</a>
+      <a href="../index.html#publications">Publications</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <article class="section post">
+    <a class="post-back" href="../blog.html">&larr; Back to Blog</a>
+    <h1>20241002 Simonsen's questions</h1>
+    <p class="post-date">2024-10-02</p>
+    <div class="post-body">
+      <p class="img-placeholder">[photo]</p>
+      <p>Q1: Should we consider the lack or presence of bleb structures on LNPs a CQA?</p>
+      <p>No. We lack understanding on the formation of blebs. Blebs can be empty. https://pubs.acs.org/doi/10.1021/acsnano.3c08014</p>
+      <p><a href="https://www.biorxiv.org/content/10.1101/2024.09.27.614859v1" target="_blank" rel="noopener">https://www.biorxiv.org/content/10.1101/2024.09.27.614859v1</a></p>
+      <p>Q2: Should we consider the proportion of mRNA-empty LNPs a CQA? The viral field is already doing this (reports the percentage of empty capsids). As we move towards using larger RNA payloads (e.g., saRNA), the question about the proportion of empty LNPs may become even more relevant.</p>
+      <p>Points here on eLNP are very spot on. I’d say Yes, but not until there’s a robust characterization method (the field of flow nanoparticle-metry is moving very fast). However, LNPs are much less immunogenic than viral vector. And the role of eLNPs in vaccine and in therapy might drastically differ. Separate discussion might be needed.</p>
+      <p>Q3: Do you consider the RiboGreen assay (recommended by USP) optimal for mRNA content quantitation in mRNA-LNP DPs? If not, what are the alternative solutions?</p>
+      <p>Might not be optimal. It relies on the intercalation of the fluorophore into the RNA backbone. Higher order structure and compaction of RNA (more so when it’s larger) might complicate the characterization.</p>
+      <p>Q4: The LNP field is starting to evaluate active targeting approaches (Verve-102 – the first active targeting LNP tested in humans using GalNAc, whilst Capstan Tx may in the future test their antibody-coated LNPs in humans). How should we quantify the targeting moieties on the surface of LNPs in mRNA-LNP DPs?</p>
+      <p>It’s almost pointless to get an average number of targeting moieties by bulk characterization, given the heterogeneity of LNPs. Moreover, active targeting relies on the number of ligands and spatial pattern as well. Unlike viral vector, the current LNPs have no such privilege.</p>
+      <p>Q5: What are the limitations of current analytical panels in characterizing stability, and what are the potential consequences?</p>
+      <p>There are many facets of stability (colloidal, enzymatic, hydrolytic etc.). We need to first identify which ones to be the most stringent. As LNP is a platform technology, the stability requirement for LNPs to be neublized will be totally different from when they’re IV administered.</p>
+      <p>Q6: Do you believe that DSC (e.g., Tm and Td values/certain features of the thermograph), SAXS (e.g., specific features in the SAXS curve), and cryo-TEM (e.g., morphology) readouts could be used as CQAs for mRNA-LNP DPs?</p>
+      <p>YES but we need to consider the accessibility of certain techniques. e.g., synchrotron is limited resources, not to mention the expertise needed to interpret the curve.</p>
+      <p>Q7: Is the mRNA-LNP field not mature enough (as related to e.g. Q1 and Q2) to identify additional CQAs beyond the traditional ones?</p>
+      <p>Likely yes. Sturctural characterization and fractionation of current LNPs (mostly adopt onpattro numbers of 50:38.5:10:1.5) deserve more attention in this field. This field is evolving rapidly so that new features might be found key and considered CQAs.</p>
+    </div>
+  </article>
+</main>
+
+<footer>
+  <img src="../assets/img/liao-seal.png" alt="" class="seal">
+  <p>&copy; <span class="year">2026</span> Suiyang Liao</p>
+</footer>
+
+<script>document.querySelector('footer .year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

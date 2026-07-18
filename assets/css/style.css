@@ -163,8 +163,40 @@ img { max-width: 100%; display: block; }
   flex-shrink: 0;
 }
 .pub-title { font-weight: 600; margin-bottom: 4px; }
+.pub-title a { color: var(--ink); }
+.pub-title a:hover { color: var(--accent); }
 .pub-meta { font-size: 0.9em; color: var(--ink-soft); margin: 0; }
-.pub-more { margin-top: 8px; font-size: 0.95em; }
+.pub-more { margin-bottom: 28px; font-size: 0.95em; }
+
+/* Publication detail page */
+.pub-page { max-width: 640px; }
+.pub-page-cover {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin: 20px 0;
+}
+.pub-page h1 { font-size: 1.5em; }
+.pub-download { margin: 24px 0; }
+.pub-download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.pub-download-btn:hover { text-decoration: none; opacity: 0.9; }
+.pub-download-note { font-size: 0.85em; color: var(--ink-soft); margin-top: 8px; }
+
+.comments-section {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.comments-section h2 { font-size: 1.2em; }
+.comments-note { font-size: 0.85em; color: var(--ink-soft); font-style: italic; }
 
 /* Footer */
 footer {

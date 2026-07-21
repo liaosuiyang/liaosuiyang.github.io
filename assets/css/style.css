@@ -68,12 +68,22 @@ img { max-width: 100%; display: block; }
   margin-left: 20px;
 }
 .nav-item .nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   color: var(--ink-soft);
   font-size: 0.95em;
   cursor: default;
   user-select: none;
 }
 .nav-item:hover .nav-link { color: var(--accent); }
+.nav-caret {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transition: transform 0.15s ease;
+}
+.nav-item:hover .nav-caret { transform: rotate(180deg); }
 .dropdown {
   position: absolute;
   top: 100%;

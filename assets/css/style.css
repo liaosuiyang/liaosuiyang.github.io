@@ -438,8 +438,33 @@ footer {
 .toc-pinned { font-weight: 600; color: var(--ink); }
 .toc-trip { font-style: italic; }
 
+/* Always-visible variant (no hover needed) */
+.toc-zone.toc-static {
+  width: 200px;
+  pointer-events: none;
+}
+.toc-zone.toc-static .toc-panel {
+  right: 28px;
+  width: 140px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: none;
+  pointer-events: auto;
+}
+.toc-zone.toc-static .toc-pinned { margin-bottom: 6px; }
+
 @media (max-width: 900px) {
   .toc-zone { display: none; }
+}
+/* the static sidebar needs more room beside the 720px content column */
+@media (max-width: 1080px) {
+  .toc-zone.toc-static { display: none; }
 }
 
 /* Responsive */

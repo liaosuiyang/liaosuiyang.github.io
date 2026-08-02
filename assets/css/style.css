@@ -218,21 +218,40 @@ img { max-width: 100%; display: block; }
 .comments-note { font-size: 0.85em; color: var(--ink-soft); font-style: italic; }
 
 /* Figures: maps, photos */
-.map-figure, .wide-figure, .plate-figure {
+.map-figure, .plate-figure {
   margin: 24px 0;
 }
-.map-figure img, .wide-figure img, .plate-figure img {
+.map-figure img, .plate-figure img {
   width: 100%;
   border-radius: 8px;
   border: 1px solid var(--border);
 }
-.map-figure figcaption, .wide-figure figcaption, .plate-figure figcaption {
+.map-figure figcaption, .plate-figure figcaption {
   margin-top: 8px;
   font-size: 0.85em;
   color: var(--ink-soft);
   text-align: center;
 }
 .plate-figure { max-width: 420px; }
+
+/* Vertical photo gallery */
+.photo-page { max-width: 720px; }
+.photo-item {
+  margin: 0 0 48px;
+  scroll-margin-top: 88px;
+}
+.photo-item:last-child { margin-bottom: 0; }
+.photo-item img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+.photo-item figcaption {
+  margin-top: 10px;
+  font-size: 0.8em;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
 
 /* Interactive travel map */
 .travel-map {

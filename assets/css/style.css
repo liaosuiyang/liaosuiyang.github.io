@@ -260,7 +260,7 @@ img { max-width: 100%; display: block; }
 .travel-dot-drawn::before {
   content: "";
   position: absolute;
-  inset: 2.5px;
+  inset: 6px;
   border-radius: 50%;
   background: #800080;
   border: 1px solid rgba(0, 0, 0, 0.6);

@@ -380,6 +380,14 @@ footer {
   color: var(--ink-soft);
   font-style: italic;
 }
+.post-figure {
+  margin: 1.4em 0;
+}
+.post-figure img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
 
 /* Hover table of contents (Notion-style) */
 .toc-zone {

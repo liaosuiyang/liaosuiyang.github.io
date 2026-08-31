@@ -183,7 +183,47 @@ img { max-width: 100%; height: auto; display: block; }
   border-radius: 6px;
   flex-shrink: 0;
 }
-.pub-thumb { flex-shrink: 0; display: block; }
+.pub-thumb { flex-shrink: 0; display: block; position: relative; }
+
+/* hover the cover to preview it full-size */
+.pub-thumb-zoom {
+  position: absolute;
+  top: -6px;
+  left: calc(100% + 14px);
+  width: 260px;
+  padding: 6px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 14px 36px rgba(11, 36, 54, 0.22);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.94);
+  transform-origin: top left;
+  transition: opacity 0.16s ease, transform 0.16s ease, visibility 0.16s;
+  pointer-events: none;
+  z-index: 30;
+}
+.pub-thumb-zoom img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  object-fit: initial;
+}
+.pub-thumb:hover .pub-thumb-zoom,
+.pub-thumb:focus-visible .pub-thumb-zoom {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+/* lift the hovered row above its neighbours so the preview isn't clipped */
+.pub { position: relative; }
+.pub:hover { z-index: 20; }
+
+@media (max-width: 700px) {
+  .pub-thumb-zoom { display: none; }
+}
 /* entries with no cover keep the text aligned with the rest of the list */
 .pub-nothumb { padding-left: 82px; }
 .pub-title { font-weight: 600; margin-bottom: 4px; }

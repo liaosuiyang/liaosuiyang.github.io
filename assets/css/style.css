@@ -179,9 +179,13 @@ img { max-width: 100%; height: auto; display: block; }
   width: 64px;
   height: 64px;
   object-fit: cover;
+  object-position: top;
   border-radius: 6px;
   flex-shrink: 0;
 }
+.pub-thumb { flex-shrink: 0; display: block; }
+/* entries with no cover keep the text aligned with the rest of the list */
+.pub-nothumb { padding-left: 82px; }
 .pub-title { font-weight: 600; margin-bottom: 4px; }
 .pub-title a { color: var(--ink); }
 .pub-title a:hover { color: var(--accent); }
@@ -209,6 +213,14 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .pub-download-btn:hover { text-decoration: none; opacity: 0.9; }
 .pub-download-note { font-size: 0.85em; color: var(--ink-soft); margin-top: 8px; }
+.pub-secondary-link { margin-left: 16px; font-weight: 500; }
+.pub-abstract {
+  margin-top: 32px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+}
+.pub-abstract h2 { font-size: 1.05em; margin-bottom: 0.6em; }
+.pub-abstract p { color: var(--ink-soft); line-height: 1.7; }
 
 .comments-section {
   margin-top: 40px;

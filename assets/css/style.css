@@ -253,6 +253,18 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--ink-soft);
   font-variant-numeric: tabular-nums;
 }
+.cat-intro {
+  margin: 0 0 48px;
+  padding-left: 18px;
+  border-left: 2px solid var(--border);
+  max-width: 34em;
+}
+.cat-intro p {
+  margin-bottom: 1em;
+  color: var(--ink-soft);
+  line-height: 1.75;
+}
+.cat-intro p:last-child { margin-bottom: 0; }
 
 /* Interactive travel map */
 .travel-map {
